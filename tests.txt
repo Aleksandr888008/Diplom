@@ -1,0 +1,20 @@
+Name                                 Stmts   Miss  Cover
+--------------------------------------------------------
+educational_modules/admin.py             7      0   100%
+educational_modules/apps.py              4      0   100%
+educational_modules/models.py           13      1    92%
+educational_modules/paginators.py        5      0   100%
+educational_modules/permissions.py       7      1    86%
+educational_modules/serializers.py       6      0   100%
+educational_modules/tests.py            33      0   100%
+educational_modules/urls.py              5      0   100%
+educational_modules/views.py            31      0   100%
+users/admin.py                           7      0   100%
+users/apps.py                            4      0   100%
+users/models.py                         34      1    97%
+users/serializers.py                     6      6     0%
+users/tests.py                          22      0   100%
+users/urls.py                            0      0   100%
+users/views.py                           0      0   100%
+--------------------------------------------------------
+TOTAL                                  184      9    95%
