@@ -14,9 +14,9 @@ class ModuleCreateAPIView(generics.CreateAPIView):
 
     def perform_create(self, serializer):
         """Автоматическое сохранение владельца при создании нового объекта"""
-        new_habit = serializer.save()
-        new_habit.owner = self.request.user
-        new_habit.save()
+        new_module = serializer.save()
+        new_module.owner = self.request.user
+        new_module.save()
 
 
 class ModuleListAPIView(generics.ListAPIView):

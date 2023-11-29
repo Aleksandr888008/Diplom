@@ -91,8 +91,8 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'diplom',
         'USER': os.getenv('PS_USER'),
-        'PASSWORD': os.getenv('PS_PASSWORD'),
-        #'PASSWORD': os.getenv('POSTGRES_PASSWORD'),
+        #'PASSWORD': os.getenv('PS_PASSWORD'),
+        'PASSWORD': os.getenv('POSTGRES_PASSWORD'),
         'HOST': os.getenv('PS_HOST'),
         'PORT': os.getenv('PS_PORT'),
     }
@@ -179,5 +179,5 @@ DJOSER = {
 }
 
 SPECTACULAR_SETTINGS = {
-    'TITLE': 'Diplom project',
+    'TITLE': 'Diploma project',
 }
